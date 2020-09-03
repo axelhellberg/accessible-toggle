@@ -1,7 +1,6 @@
 var toggleSwitch = function (e) {
     if (!e.target.classList.contains('toggle')) return;       
     e.target.classList.toggle('on');
-    document.querySelector('body').classList.toggle('on');
 };
 
 document.addEventListener('click', toggleSwitch, false);
